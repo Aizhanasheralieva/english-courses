@@ -2,7 +2,7 @@ import React from "react";
 import Home from "../Home/Home";
 import AboutUs from "../AboutUs/AboutUs";
 import Contacts from "../Contacts/Contacts";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Navbar from "../../components/Navbar/Navbar";
 
 const EnglishCourses: React.FC = () => {
