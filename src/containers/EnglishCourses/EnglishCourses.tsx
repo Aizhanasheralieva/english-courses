@@ -17,6 +17,7 @@ const EnglishCourses: React.FC = () => {
             <Route path="/" element={<Home />} />
             <Route path="/aboutUs" element={<AboutUs />} />
             <Route path="/contacts" element={<Contacts />} />
+            <Route path="*" element={<h1>Not found</h1>} />
           </Routes>
         </div>
       </main>
