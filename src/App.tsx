@@ -1,10 +1,9 @@
+import EnglishCourses from "./containers/EnglishCourses/EnglishCourses.tsx";
+
 const App = () => {
   return (
     <>
-      <header>
-
-      </header>
-      <main></main>
+      <EnglishCourses />
     </>
   );
 };
