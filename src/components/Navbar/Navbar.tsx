@@ -6,8 +6,8 @@ const Navbar: React.FC = () => {
   return (
     <nav className="navbar navbar-expand-lg  bg-primary">
       <div className="container">
-        <NavLink className="navbar-brand" to="/">
-          English Courses
+        <NavLink className="navbar-brand fs-1 text-white" to="/">
+          Learn English
         </NavLink>
         <div className="collapse navbar-collapse">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
